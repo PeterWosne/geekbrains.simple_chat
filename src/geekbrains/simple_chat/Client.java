@@ -21,10 +21,8 @@ public class Client extends JFrame {
     private DataOutputStream out;
     private DefaultListModel<String> listModel;
     private boolean isAuthorized;
-
     private String nick;
-
-    String selectedUser;
+    private String selectedUser;
 
     public Client() {
         try {
